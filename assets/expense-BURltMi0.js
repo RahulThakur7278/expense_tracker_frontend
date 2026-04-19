@@ -1,0 +1,1 @@
+import{aa as s}from"./index-BVEJOZxB.js";const n=e=>s.post("/expenses",e),a=e=>s.get("/expenses/my",{params:e}),x=(e,t)=>s.put(`/expenses/${e}`,t),o=e=>s.delete(`/expenses/${e}`),c=()=>s.get("/expenses/summary"),u=()=>s.get("/expenses"),g=(e,t)=>s.patch(`/expenses/${e}/status`,{status:t});export{c as a,u as b,n as c,o as d,g as e,a as g,x as u};
