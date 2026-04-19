@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "expense-tracker-backend-chi-green.vercel.app/api"   //temporary heard code due to deployment issue
+  baseURL: "https://expense-tracker-backend-chi-green.vercel.app/api"   //temporary heard code due to deployment issue
 ,
   headers: { "Content-Type": "application/json" },
 });
